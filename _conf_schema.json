@@ -1,0 +1,35 @@
+{
+  "readme_notice": {
+    "description": "⚠️ 使用前必读：依赖安装说明",
+    "hint": "本插件需要 Python 库（httpx、Pillow）和 Playwright Chromium（图片渲染核心）。\n\n详细安装步骤请查看插件目录下的 README.md。",
+    "type": "string",
+    "default": "（此配置项仅作提示，请勿修改）"
+  },
+  "lilith_api_key": {
+    "description": "Lilith API Key",
+    "hint": "请前往 https://lilith.xtower.site/open-platform 使用 GitHub 登录，创建 API Key 并复制以 pgr_live_ 开头的密钥。",
+    "type": "string",
+    "default": "",
+    "secret": true
+  },
+  "phi_api_url": {
+    "description": "API 基础地址",
+    "hint": "默认为 https://r0semi.xtower.site，末尾不要带斜杠或路径。",
+    "type": "string",
+    "default": "https://r0semi.xtower.site"
+  },
+  "proxy_url": {
+    "description": "网络代理地址",
+    "hint": "可选。例如 http://127.0.0.1:7890，留空表示不使用。",
+    "type": "string",
+    "default": ""
+  },
+  "timeout": {
+    "description": "请求超时时间（秒）",
+    "hint": "范围 5-120，默认 30。",
+    "type": "int",
+    "default": 30,
+    "min": 5,
+    "max": 120
+  }
+}

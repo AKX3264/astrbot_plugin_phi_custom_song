@@ -1,0 +1,15 @@
+name: astrbot_plugin_phi_guess
+display_name: Phigros 猜歌插件
+short_desc: AstrBot 的 Phigros 猜歌 / 抽歌插件
+desc: |-
+  基于 Lilith 开放平台 API 的猜歌插件。
+  支持遮罩猜歌、随机选歌、积分排行等功能。
+version: v1.0.0
+author: AKX3264
+repo: ""
+help: 发送 /猜歌 查看指令
+astrbot_version: ">=4.17.0"
+tags:
+  - phigros
+  - 音游
+  - 猜歌
